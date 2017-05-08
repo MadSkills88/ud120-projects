@@ -39,11 +39,11 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(labels_pred, labels_test)
 print accuracy
 
-answer1 = labels_pred(10)
+answer1 = labels_pred[10]
 print answer1
-answer2 = labels_pred(26)
+answer2 = labels_pred[26]
 print answer2
-answer3 = labels_pred(50)
+answer3 = labels_pred[50]
 print answer3
 
 #########################################################
