@@ -31,7 +31,6 @@ labels_pred = clf.predict(features_test)
 from sklearn.metrics import accuracy_score
 acc = accuracy_score(labels_pred, labels_test)
 print acc
-print len(features_train[0])
 #########################################################
 
 
