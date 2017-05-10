@@ -24,3 +24,4 @@ poi_count = 0
 for person in enron_data:
     if enron_data[person]["poi"] == 1: poi_count +=1
 print "persons of interest: ", poi_count
+print "PRENTICE-P: total stock value: ", enron_data["PRENTICE-P"]["total_stock_value"]
