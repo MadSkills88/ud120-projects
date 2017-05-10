@@ -18,8 +18,5 @@
 import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
-num_people = 0
-for person in enron_data:
-    num_people += 1
-print "number of people: ", num_people
+print "number of people: ", len(enron_data)
 print "number of features: ", len(enron_data[0])
