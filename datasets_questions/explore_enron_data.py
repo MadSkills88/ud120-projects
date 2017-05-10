@@ -18,5 +18,8 @@
 import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
-
+num_people = 0
+for person in enron_data:
+    num_people += 1
+print num_people
 
