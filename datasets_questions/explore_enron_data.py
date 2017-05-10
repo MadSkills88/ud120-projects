@@ -19,4 +19,4 @@ import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
 print "number of people: ", len(enron_data)
-print "number of features: ", len(enron_data[])
+print "number of features: ", len(enron_data["SKILLING JEFFREY K"])
