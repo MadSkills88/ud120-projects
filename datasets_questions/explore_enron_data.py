@@ -22,4 +22,3 @@ num_people = 0
 for person in enron_data:
     num_people += 1
 print num_people
-
