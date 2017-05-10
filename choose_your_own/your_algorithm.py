@@ -33,9 +33,9 @@ plt.show()
 
 ### K Nearest Neighbor Classification
 from sklearn.neighbors import KNeighborsClassifier
-neigh = KNeighborsClassifier(n_neighbors=3)
-neigh.fit(features_train, labels_train)
-labels_pred = neigh.predict(features_test)
+clf = KNeighborsClassifier(n_neighbors=3)
+clf.fit(features_train, labels_train)
+labels_pred = clf.predict(features_test)
 from sklearn.metrics import accuracy_score
 acc = accuracy_score(labels_pred, labels_test)
 print acc
