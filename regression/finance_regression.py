@@ -41,9 +41,10 @@ from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit(feature_train, target_train)
 
-print reg.coef_
-print reg.intercept_
-
+print "slope: ", reg.coef_
+print "y-intercept: ", reg.intercept_
+print "training r square score: ", reg.score(feature_train, feature_train)
+print "test r square score: ", reg.score(feature_train, feature_test)
 
 
 ### draw the scatterplot, with color-coded training and testing points
