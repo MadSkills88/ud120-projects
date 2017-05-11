@@ -31,8 +31,8 @@ reg = linear_model.LinearRegression()
 reg.fit(ages_train, net_worths_train)
 print "regression slope: ", reg.coef_
 print "regression y-intercept: ", reg.intercept_
-print "regression score: ", reg.score(ages_train, net_worths_train)
-
+print "training regression score: ", reg.score(ages_train, net_worths_train)
+print "testing regression score: ", reg.score(ages_test, net_worths_test)
 
 
 
