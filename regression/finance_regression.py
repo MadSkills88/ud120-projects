@@ -43,8 +43,8 @@ reg.fit(feature_train, target_train)
 
 print "slope: ", reg.coef_
 print "y-intercept: ", reg.intercept_
-print "training r square score: ", reg.score(feature_train, target_train)
-print "testing r square score: ", reg.score(feature_test, target_test)
+print "training regression score: ", reg.score(feature_train, target_train)
+print "testing regression score: ", reg.score(feature_test, target_test)
 
 
 ### draw the scatterplot, with color-coded training and testing points
